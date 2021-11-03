@@ -1,0 +1,32 @@
+{
+  "name": "qiniu-oss-webpack-plugin",
+  "version": "0.0.1",
+  "description": "七牛云存储oss webpack 打包上传插件，适配webpack5/webpack4",
+   "keywords": [
+    "qiniu",
+    "webpack",
+    "oss",
+    "七牛",
+    "七牛云存储",
+    "cloud storage"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib "
+  },
+  "author": "https://github.com/attax",
+  "license": "MIT",
+  "dependencies": {
+    "promise": "^7.1.1",
+    "qiniu": "^6.1.9",
+    "slash": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
